@@ -1,0 +1,76 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+.container {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(235, 244, 253);
+    height: 500px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    margin: auto auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.box {
+    border: none solid 1px;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px rgb(195, 195, 195);
+}
+
+.icon {
+    display: flex;
+    font-size: 30px;
+    border-radius: 50%;
+    flex: 1;
+    padding: 15px 0 15px 15px;
+    border: black solid 1px;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+}
+
+h2 {
+    display: flex;
+    flex: 4;
+    margin-left: 20px;
+}
+
+.sub-box {
+    display: flex;
+}
+
+p {
+    display: block;
+    margin-top: 10px;
+    color: rgb(179, 179, 179);
+}
+
+.icon::before {
+    position: relative;
+    left: 2px;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 5px 2px red;
+
+}
